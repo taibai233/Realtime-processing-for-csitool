@@ -17,5 +17,4 @@ Tips for Matlab version > R2014a:
 We use EraseMode to increase the rendering speed. However, starting in R2014b, the EraseMode property has been removed from all graphics objects. https://mathworks.com/help/matlab/graphics_transition/how-do-i-replace-the-erasemode-property.html
 
 # Contact
-Bingxian Lu 
 Email: bingxian.lu@gmail.com
