@@ -2,6 +2,7 @@
  * (c) 2008-2011 Daniel Halperin <dhalperi@cs.washington.edu>
  *   
  *   Modified by Renjie Zhang, Bingxian Lu.
+ *   Email: bingxian.lu@gmail.com
  */
 #include "iwl_connector.h"
 
