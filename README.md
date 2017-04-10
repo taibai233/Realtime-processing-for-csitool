@@ -2,7 +2,7 @@
 A realtime data processing and display visualization plugin for the Linux 802.11n CSI Tool.
 
 # Usage
-To use this code, you need the files from https://github.com/dhalperi/linux-80211n-csitool-supplementary.
+To use this code, you will need all the files from https://github.com/dhalperi/linux-80211n-csitool-supplementary.
 
 In netlink:
 ~~~
