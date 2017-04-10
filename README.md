@@ -1,5 +1,5 @@
 # Realtime-processing-for-csitool
-A realtime data processing and display visualization plugin for the Linux 802.11n CSI Tool.
+A realtime data processing and visualization plugin for the Linux 802.11n CSI Tool.
 
 # Usage
 To use this code, you will need all the files from https://github.com/dhalperi/linux-80211n-csitool-supplementary.
