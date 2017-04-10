@@ -86,7 +86,10 @@ while 1
     
         index = mod(index+1, 10);
         
-        csi = get_scaled_csi(ret{1}); %This plot will show graphics about recent 10 csi packets in EraseMode
+        csi = get_scaled_csi(ret{1});%CSI data
+	%You can use the CSI data here.
+
+	%This plot will show graphics about recent 10 csi packets
         set(p(index*3 + 1),'XData', [1:30], 'YData', db(abs(squeeze(csi(1,1,:)).')), 'color', 'b', 'linestyle', '-');
         set(p(index*3 + 2),'XData', [1:30], 'YData', db(abs(squeeze(csi(1,2,:)).')), 'color', 'g', 'linestyle', '-');
         set(p(index*3 + 3),'XData', [1:30], 'YData', db(abs(squeeze(csi(1,3,:)).')), 'color', 'r', 'linestyle', '-');
