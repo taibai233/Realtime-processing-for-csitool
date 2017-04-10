@@ -20,7 +20,13 @@ while 1
     axis([1,30,-10,30]);
     t1=0;
     m1=zeros(30,1);
+
     p = plot(t1,m1,'EraseMode','Xor','MarkerSize',5);
+%%  Starting in R2014b, the EraseMode property has been removed from all graphics objects. 
+%%  https://mathworks.com/help/matlab/graphics_transition/how-do-i-replace-the-erasemode-property.html
+%%  For Matlab version > R2014a
+%%  p = plot(t1,m1,'MarkerSize',5);
+
     xlabel('subcarrier index');
     ylabel('SNR (dB)');
 
