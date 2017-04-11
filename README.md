@@ -9,6 +9,7 @@ In netlink:
 gcc log_to_server.c -o log_to_server
 sudo ./log_to_server <ip> <port>
 ~~~
+Tips: If you are using an early verison of the Linux 802.11n CSI Tool (or the log_to_server doestn't work), please try our old version code.
 
 In matlab:
 run read_bf_socket.m
