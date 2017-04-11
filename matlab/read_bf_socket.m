@@ -14,7 +14,9 @@ while 1
     t = tcpip('0.0.0.0', 8090, 'NetworkRole', 'server');
     t.InputBufferSize = 1024;
     t.Timeout = 15;
+    fprintf('Waiting for connection on port %d\n',port);
     fopen(t);
+    fprintf('Accept connection from %s\n',t.RemoteHost);
 
 %% Set plot parameters
     clf;
